@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Inter:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Inter:wght@200;300;400;500&family=Sacramento&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    background-color: #F9F5E1;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuesquerda {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: auto;
+}
+
+.menudireita {
+    display: flex;
+    flex-direction: row;
+    gap: 50px; 
+    margin: auto;
+}
+
+.topo a:hover {
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.logotopo {
+    width: 500px;
+    margin: auto;
+}
+
+.topo a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3E7A76;
+}
+
+.topo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo2 h1 {
+    font-weight: 400;
+    font-size: 2.1em;
+}
+
+.topo2 h2 {
+    font-family: 'Corinthia', cursive;
+    font-weight: 200;
+    font-size: 3.8em;
+    color: #3E7A76;
+}
+
+.imgprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgprincipal img {
+    max-width: 100%;
+}
+
+.botaoprodutos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E7A76;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    padding:  9px 30px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.1em;
+    box-shadow: gray 2px 2px 8px;
+    cursor: pointer;
+}
+
+.corpo a {
+    text-decoration: none;
+}
+
+.botaoprodutos:hover {
+    padding: 9px 40px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.textoconteudo {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.identidade {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.linha {
+    font-size: 0.8em;
+    font-weight: 100;
+    color: #3E7A76;
+}
+
+.qualidade {
+    font-family: 'Sacramento', cursive;
+    font-size: 3em;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.textopequeno {
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.sign {
+    width: 280px;
+
+}
+
+.linha2 {
+    font-size: 0.8em;
+    font-weight: 100;
+    margin-top: 40px;
+    color: #3E7A76;
+}
+
+footer {
+    background-color: #3E7A76;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: white;
+}
+
+.links {
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+.links a {
+    padding: 15px;
+    color: white;
+}
+
+.termos {
+    color: white;
+    font-size: 0.8em;
+}
+
+.termos h2 {
+    font-weight: 600;
+    
+}
+
+.termos a {
+    text-decoration: none;
+    color: white;
+}
+
+.direitos h3 {
+    color: white;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+
