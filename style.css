@@ -250,14 +250,14 @@ footer {
 }
 
 .zoomin:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .imgprodutos2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 90px;
 }
 
 
