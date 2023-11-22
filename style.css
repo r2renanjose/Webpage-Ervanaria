@@ -252,6 +252,8 @@ footer {
 
 .zoomin:hover {
     transform: scale(1.05);
+    border-radius: 10px;
+    transition: 0.6s;
 }
 
 .imgprodutos2 {
